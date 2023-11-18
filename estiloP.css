@@ -1,0 +1,94 @@
+
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+
+
+
+body {
+    margin: 2px;
+    background: url('fondohojas.jpg') center; 
+    justify-content: center;
+}
+
+#contenedor-cabezal{
+    display: flex;
+    align-items: right; 
+	justify-content: right;
+	background-color: rgba(0, 0, 0, 0.705);
+    padding: 20px;
+	height: 130px;
+	margin-top: 0%;
+	
+}
+
+#titulo{
+	color: rgb(224, 224, 224);
+    align-items: center;
+    padding: 20px;
+	width: 90%;
+	height: 10%;
+    justify-content: center;
+    text-align: center;
+	
+}
+#imagen {
+    display: block;
+    color: rgb(224, 224, 224);
+    text-align: left;
+	border-radius: 50%;
+}
+
+#buscador{
+    display: block;
+    text-align: center;
+	margin-top: 0%;
+    width: 100%;
+}
+
+#contenedor-enlaces {
+    height: 15px;
+    text-align: center; 
+	background-color: rgba(0, 0, 0, 0.705);
+    padding: 20px;
+}
+nav ul li {
+    display: inline;
+	list-style: none;
+    margin-bottom: 2px;
+	justify-content: center;
+	padding: 10px;
+
+	
+}
+#containerProductos{
+    
+	display: flex;
+    margin: 20px auto;
+    min-height: 1100px;
+    width: 90%;
+    background-color: rgba(8, 8, 8, 0.705);
+	
+}
+
+.article{
+	display: inline-block;
+	border-style: dotted;
+	border-bottom-color: chartreuse;
+	text-align: left;
+
+}
+
+footer {
+	
+    background-color: rgb(20, 31, 18);
+    text-align: center;
+    height: 50px;
+	width: 1100px;
+	margin: 0 auto;
+    line-height: 30px;
+	color: azure;
+}
