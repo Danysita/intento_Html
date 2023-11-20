@@ -1,9 +1,7 @@
+
 *{
-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-
-
-
 
 body {
     margin: 2px;
@@ -11,14 +9,12 @@ body {
     justify-content: center;
 }
 
-#contenedor-cabezal {
+#contenedor-cabezal{
     display: flex;
-    align-items: right; 
-	justify-content: right;
 	background-color: rgba(0, 0, 0, 0.705);
     padding: 20px;
 	height: 130px;
-	margin-top: 0%;
+
 	
 }
 
@@ -26,25 +22,14 @@ body {
 	color: rgb(224, 224, 224);
     align-items: center;
     padding: 20px;
-	width: 90%;
 	height: 10%;
-    justify-content: center;
-    text-align: center;
-	
-	
 }
-#imagen {
+
+#Logo{
     display: block;
     color: rgb(224, 224, 224);
     text-align: left;
-	border-radius: 100%;
-}
-
-#buscador{
-    display: block;
-    text-align: center;
-	margin-top: 0%;
-    width: 100%;
+	border-radius: 50%;
 }
 
 #contenedor-enlaces {
@@ -52,26 +37,19 @@ body {
     text-align: center; 
 	background-color: rgba(0, 0, 0, 0.705);
     padding: 20px;
-	margin-bottom: 10px;
-	
 }
+
 nav ul li {
     display: inline;
 	list-style: none;
-    margin: 2px;
-	justify-content: center;
+    margin-bottom: 2px;
 	padding: 10px;
-	margin-bottom: 10px;
-
-	
 }
 
-
-
-#containerPresentacion{
+#contenedorPresentacion{
 	display: flex;
     margin: 20px auto;
-    min-height: 1100px;
+    min-height: 100%;
     width: 90%;
     background-color: rgba(8, 8, 8, 0.705);
 }
@@ -79,48 +57,44 @@ nav ul li {
 
 #imagenPresentacion {
 	display: block;
-	padding: 10px;
-    
+	padding: 10px;   
 }
-.contenedoranimacion {
+
+.contenedorimagen {
 	position: relative;
-	height: 290px;
-	width: 290px;
+	height: 500px;
+	width: 500px;
 	margin: 50px 20px;
 	float: left;
   }
   
-  .contenedoranimacion img {
+  .contenedorimagen img {
 	position: absolute;
 	transition: opacity 1.5s ease-in-out;
   }
   
-  .contenedoranimacion img.imagen_:hover {
+  .contenedorimagen img .imagencontenido:hover {
 	opacity: 0;
   }
 
 #presentacionletra{
 	margin-left: 200px;
-   text-align: center;
-	color: rgb(241, 241, 241);
-	width: 45%;
-	
-   
+    text-align: left;
+	color: rgb(241, 241, 241); 
 }
+
 #Opiniones {
 	display: block;
-	text-align: bottom;
-
+       
 }
-
 
 footer {
 	
     background-color: rgb(20, 31, 18);
     text-align: center;
     height: 50px;
-	width: 1100px;
-	margin: 0 auto;
+	width: 90%;
+	margin-left: 5%;
     line-height: 30px;
 	color: azure;
 }

@@ -1,0 +1,123 @@
+
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+body {
+    margin: 2px;
+    background: url('fondohojas.jpg') center; 
+    justify-content: center;
+}
+
+#contenedor-cabezal{
+    display: flex;
+	background-color: rgba(0, 0, 0, 0.705);
+    padding: 20px;
+	height: 130px;
+}
+
+
+#imagen {
+    display: block;
+    color: rgb(224, 224, 224);
+    text-align: center;
+
+}
+
+#buscador{
+    display: block;
+    text-align: right;
+	margin-top: 30px;
+    width: 100%;
+    margin-right: 100px;
+}
+
+#contenedor-enlaces {
+    height: 30px;
+    text-align: center; 
+	background-color: rgba(0, 0, 0, 0.705);
+    padding: 20px;
+}
+nav ul li {
+    display: inline;
+	list-style: none;
+    padding: 30px;
+   
+	
+}
+#cuerpo_productos{
+    
+	display: flex;
+    margin: 20px auto;
+    min-height: 100%;
+    width: 90%;
+    background-color: rgba(8, 8, 8, 0.705);
+}
+
+.contenido{
+    
+    margin: 20 px auto;
+    vertical-align: middle;
+    display: inline;
+    padding: 40px;
+    margin-left: 70px;
+ 
+}
+
+.contenedor_fotos{
+   display: inline-block;
+    max-width: 100%;
+    padding: 70px;
+    margin-bottom: 20px;
+    justify-content: space-between;
+    transition: 0.5s;
+   
+}
+.contenedor_fotos:hover{
+    transform: scale(1.3);
+}
+
+   .Producto{
+    text-align: center;
+    color: aliceblue;
+   }
+   .descripcion{
+    text-align: center;
+    color: aliceblue;
+   }
+
+
+   .contenedor_final{
+    display: flex;
+    margin: 20px auto;
+    height: 400px;
+    width: 90%;
+    background-color: rgba(8, 8, 8, 0.705);
+    overflow: hidden;
+   
+   } 
+
+.foto_final{
+ text-align: center;
+ padding:10px;
+ width: 100%;
+ height: 100%;
+ transition: 0.5s;
+}
+.foto_final:hover{
+    transform: scale(1.3);
+}
+   
+
+footer {
+	
+    background-color: rgb(20, 31, 18);
+    text-align: center;
+    height: 50px;
+	width: 90%;
+	margin-left: 5%;
+    line-height: 30px;
+	color: azure;
+}
